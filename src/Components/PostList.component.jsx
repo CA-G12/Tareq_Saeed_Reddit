@@ -1,0 +1,1 @@
+import "./css/postList.css";
