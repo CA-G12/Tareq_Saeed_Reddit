@@ -13,8 +13,10 @@ class App extends Component {
     this.setState({
       search: newSearch,
     });
+
   };
   render() {
+    console.log('rerenderhhfhh');
     return (
       <div className='App'>
         <Header setSearch={this.setSearch} search={this.state.search} />
@@ -25,3 +27,4 @@ class App extends Component {
 }
 
 export default App;
+
