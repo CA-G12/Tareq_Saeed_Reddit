@@ -1,20 +1,22 @@
 .usersList {
-    width: 20%;
-    height: 100%;
-    background-color: #282c34;
-    color: #fff;
-
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: #282c34;
+  color: #fff;
+  overflow: auto;
+  margin-top: 2rem;
 }
 .user {
-    font-size: large;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    
+  font-size: large;
+  margin: 0.2rem 0rem 0.2rem 1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-bottom: #1d1f25 solid 0.1rem;
+  transition: all 0.3s;
 }
 .user:hover {
-    cursor: pointer;
-    background-color: #1d1f25;
-    
+  cursor: pointer;
+  background-color: #1d1f25;
+  font-size: 1.2rem;
 }
