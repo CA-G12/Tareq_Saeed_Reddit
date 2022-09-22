@@ -9,17 +9,30 @@ class UserList extends Component {
     this.props.setUserState(userId);
   };
 
+  changeAll = (e) => {
+    const userId = e.target.id;
+    this.props.setUserState(userId);
+
+    if (this.props.allStr === false) {
+      this.props.changeToAll(true);
+    }
+    else this.props.changeToAll(false)
+  }
+
   render() {
     const usersList = this.props.usersList;
     return (
       <section>
-        <ul>
+        <div className="usersList">
+          <div className="user" onClick={this.changeAll} id={0}>
+            all
+          </div>
           {usersList.map((user) => (
-            <li onClick={this.changeUserFilter} id={user.id} key={user.id}>
+            <div className="user" onClick={this.changeUserFilter} id={user.id} key={user.id}>
               {user.username}
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
     );
   }
