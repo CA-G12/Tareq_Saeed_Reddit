@@ -40,4 +40,4 @@ First, when you open the application landing page shows posts with search debend
 
 API's postman:
 
-- [Reddit Clone postman API's]()
+- [Reddit Clone postman API's](https://www.getpostman.com/collections/3c96d39f0eb2d3ebdb12)
