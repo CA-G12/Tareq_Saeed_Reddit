@@ -6,17 +6,14 @@ class Header extends Component {
     super(props);
     this.timeout = 0;
   }
-  state = { searchPosts: "" };
   //this is Art of Art We Art
 
   handleSearchChange = (event) => {
     if (this.timeout) clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
-      console.log(this.state.searchPosts, "weee Art the Art");
+      console.log(this.props.search, "weee Art the Art");
     }, 1000);
-    this.setState(() => {
-      return { searchPosts: event.target.value };
-    });
+    this.props.setSearch(event.target.value);
   };
   render() {
     return (
@@ -25,7 +22,7 @@ class Header extends Component {
         <input
           type='text'
           name='searchPosts'
-          value={this.state.searchPosts}
+          value={this.props.search}
           onChange={this.handleSearchChange}
         ></input>
       </header>
