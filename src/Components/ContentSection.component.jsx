@@ -76,7 +76,7 @@ class ContentSection extends Component {
 
   render() {
     return (
-      <main>
+      <main className="content">
         <UserList
           selectedUser={this.state.selectedUser}
           setUserState={this.changeSelectedUser}

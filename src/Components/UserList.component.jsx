@@ -1,6 +1,6 @@
 import "./css/userList.css";
 import { Component } from "react";
-import "./css/header.css";
+
 
 class UserList extends Component {
   changeUserFilter = (event) => {
@@ -11,15 +11,14 @@ class UserList extends Component {
   render() {
     const usersList = this.props.usersList;
     return (
-      <section>
-        <div className='usersList'>
+      <section className='usersList'>
           <div
             className='user'
             onClick={this.changeUserFilter}
             id={"said"}
             key={0}
           >
-            all
+            All posts
           </div>
           {usersList.map((user) => (
             <div
@@ -31,7 +30,6 @@ class UserList extends Component {
               {user.username}
             </div>
           ))}
-        </div>
       </section>
     );
   }
