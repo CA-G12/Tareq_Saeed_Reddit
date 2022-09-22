@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Reddit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- design front-end for some features for reddit application in React Class Component.
 
-## Available Scripts
+## Links
 
-In the project directory, you can run:
+- Live Link [Here](https://deploy-preview-16--sparkly-figolla-28cac7.netlify.app/)
 
-### `npm start`
+## User Journey
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+First, when you open the application landing page shows posts with search debend on post title and fiter debend on user.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories
 
-### `npm test`
+- A user should be able to see all posts sorted according to vote.
+- A user should be able to see users posts speritly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How To clone Our App:
 
-### `npm run build`
+- Open gitBash wherever you want to save the project on your device.
+- Clone the repository to your device (`git clone repo link`).
+- Enter repo `cd nameOfRepo`
+- Type -> `code .`
+- Navigate to the live server from the HTML file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JavaScript
+- React
+- Class
+- Html
+- Css
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Team members:
 
-### `npm run eject`
+- [Said madi](https://github.com/Saeed99Madi)
+- [Tereq Abu S3da](https://github.com/tariqabusada)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Resources
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+API's postman:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Reddit Clone postman API's]()
