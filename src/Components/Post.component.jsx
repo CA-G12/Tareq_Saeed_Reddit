@@ -5,12 +5,12 @@ class Post extends React.Component {
 
     
     render() {
-        const { id, title, content, user_id } = this.props.onePost
+        const { id, title, content } = this.props.onePost
         return (
-            <>
+            <div key={id}>
                 <h2>{title}</h2>
                 <p>{content}</p>
-            </>
+            </div>
         )
     }
 }
