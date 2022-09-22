@@ -2,12 +2,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(4, 4, 75);
+  background-color: #121416;
   color: aliceblue;
-  margin-bottom: 0.5rem;
 }
 header input {
   height: 1.5rem;
+  width: 19rem;
   margin-right: 1rem;
 }
 header h1 {

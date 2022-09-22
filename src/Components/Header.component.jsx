@@ -20,6 +20,7 @@ class Header extends Component {
       <header>
         <h1>Reddit</h1>
         <input
+        placeholder="search for post by title ..."
           type='text'
           name='searchPosts'
           value={this.props.search}
